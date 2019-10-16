@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: ;
+}
+/*  */
+img{
+    width: 100%;
+    height: 100%;
+}
+.logo-img{
+    width: 70px;
+}
+.container-fluid.main{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    background-image: url('https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1120');
+}
+.jumbotron{
+    background: rgba(3,49,56, 0.4)!important;
+    width: 40%;
+    transition: all 1s;
+
+}
+@media (max-width: 576px) { 
+    .jumbotron{
+        width: 100%!important;
+        transition: all 1s;
+    }
+    .jumbotron-2{display: none!important;}
+ }
+ @media (max-width: 476px){
+    .jumbotron{
+        width: 100%!important;
+        transition: all 1s;
+    }
+ }
+
+.text-center{
+    font-size: 1.5rem!important;
+    font-weight: bold!important;
+}
+.warp{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-link{
+    background-color: #007bff;
+    border-radius: 20px;
+    padding:5px 10px!important;
+}
+.nav-link:hover {
+    background-color: #fff;
+    color: black!important;
+}
+.navbar .navbar-brand{
+    font-weight: 700;
+    font-size: 2rem;
+    padding-top: 20px!important;
+    color: #007bff!important;
+}
+.team-img{
+    height: 500px;
+    padding: 35px 35px 10px;  
+    transition: all 1s;
+}
+h1#ourteam{
+    font-size: 5rem!important;
+    transition: all 1s;
+}
+#ourteam::before{
+    content: "";
+    height: 5px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #007bff;
+    display: block;
+}
+#ourteam::after{
+    content: "";
+    height: 5px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-color: #007bff;
+    display: block;
+}
+#footer{
+    background: rgba(3,49,56, 0.4)!important;
+    color: #fff;
+}
